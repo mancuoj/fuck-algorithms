@@ -4,7 +4,7 @@ s, cnt = 0, 0
 for i in range(12):
     l = list(map(float, input().split()))
     for j in range(12):
-        if j > i:
+        if j > i and i + j > 11:
             s += l[j]
             cnt += 1
 
