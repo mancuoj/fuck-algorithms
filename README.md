@@ -4,3 +4,7 @@
 
 - https://www.acwing.com/problem/
 - https://pintia.cn/problem-sets
+- https://leetcode.cn/problemset/all/
+- https://www.luogu.com.cn/training/list
+- https://labuladong.github.io/algo/
+- https://www.programmercarl.com/
