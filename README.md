@@ -10,5 +10,8 @@
 - https://www.hackerrank.com/domains/python
 - https://codeforces.com/problemset
 - https://atcoder.jp/home
+- https://projecteuler.net/
+- http://poj.org/
+- https://zoj.pintia.cn/problem-sets
 - https://labuladong.github.io/algo/
 - https://www.programmercarl.com/
