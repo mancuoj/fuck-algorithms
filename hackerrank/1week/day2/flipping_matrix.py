@@ -7,7 +7,6 @@ import re
 import sys
 
 
-
 #
 # Complete the 'flippingMatrix' function below.
 #
@@ -15,14 +14,16 @@ import sys
 # The function accepts 2D_INTEGER_ARRAY matrix as parameter.
 #
 
+
 def flippingMatrix(matrix):
     # Write your code here
-    # TODO
-    ...
-    
+    mid = len(matrix) // 2
+    find_max = lambda m, x, y: max(m[x][y], m[x][~y], m[~x][y], m[~x][~y])
+    return sum([find_max(matrix, x, y) for x in range(mid) for y in range(mid)])
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     q = int(input().strip())
 
@@ -36,6 +37,6 @@ if __name__ == '__main__':
 
         result = flippingMatrix(matrix)
 
-        fptr.write(str(result) + '\n')
+        fptr.write(str(result) + "\n")
 
     fptr.close()
