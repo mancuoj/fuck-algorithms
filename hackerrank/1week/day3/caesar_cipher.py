@@ -19,12 +19,12 @@ import sys
 def caesarCipher(s, k):
     # Write your code here
     ans = ""
-    for i in range(len(s)):
-        if "a" <= s[i] <= "z" or "A" <= s[i] <= "Z":
-            shift = 97 if "a" <= s[i] <= "z" else 65
-            ans += chr(shift + ((ord(s[i]) - shift + k + 26) % 26))
+    for i in s:
+        if "a" <= i <= "z" or "A" <= i <= "Z":
+            shift = 97 if "a" <= i <= "z" else 65
+            ans += chr(shift + ((ord(i) - shift + k + 26) % 26))
         else:
-            ans += s[i]
+            ans += i
     return ans
 
 
