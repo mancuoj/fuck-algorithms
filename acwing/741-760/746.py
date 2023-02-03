@@ -1,14 +1,14 @@
 sign = input()
 
-s, cnt = 0, 0
+total, cnt = 0, 0
 for i in range(12):
     l = list(map(float, input().split()))
     for j in range(12):
         if j < i:
-            s += l[j]
+            total += l[j]
             cnt += 1
 
 if sign == "M":
-    s /= cnt
+    total /= cnt
 
-print(f"{s:.1f}")
+print(f"{total:.1f}")

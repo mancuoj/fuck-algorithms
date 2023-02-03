@@ -1,13 +1,13 @@
 l, sign = int(input()), input()
 
-s = 0
+total = 0
 for i in range(12):
     if i == l:
-        s = sum(list(map(float, input().split())))
+        total = sum(list(map(float, input().split())))
         break
     input()
 
 if sign == "M":
-    s /= 12
+    total /= 12
 
-print(f"{s:.1f}")
+print(f"{total:.1f}")
