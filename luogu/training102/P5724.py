@@ -1,4 +1,4 @@
 n = int(input())
-l = sorted(list(map(int, input().split())))
+l = sorted(map(int, input().split()))
 
 print(f"{max(l) - min(l)}")

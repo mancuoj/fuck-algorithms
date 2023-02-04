@@ -1,4 +1,1 @@
-s = input()
-
-for i in s:
-    print(i, end=" ")
+print(" ".join(input()))

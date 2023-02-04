@@ -1,4 +1,4 @@
-a, b, c = sorted(list(map(int, input().split())))
+a, b, c = sorted(map(int, input().split()))
 
 if a + b <= c:
     print("Not triangle")

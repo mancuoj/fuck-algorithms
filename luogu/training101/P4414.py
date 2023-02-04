@@ -1,4 +1,4 @@
-l = sorted(list(map(int, input().split())))
+l = sorted(map(int, input().split()))
 s = input()
 
 for i in range(3):
