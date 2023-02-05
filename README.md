@@ -6,6 +6,7 @@
 - https://www.luogu.com.cn/training/list
 - https://pintia.cn/problem-sets
 - https://leetcode.cn/problemset/all/
+- https://www.lanqiao.cn/cup/?sort=students_count&category_id=3
 - https://www.nowcoder.com/exam/oj
 - https://www.hackerrank.com/domains/python
 - https://codeforces.com/problemset
