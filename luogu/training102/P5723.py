@@ -10,12 +10,12 @@ def is_prime(num):
 
 l = int(input())
 
-sum, cnt = 0, 0
+total, cnt = 0, 0
 for i in range(2, 100010):
     if is_prime(i):
-        if sum + i > l:
+        if total + i > l:
             print(cnt)
             break
         print(i)
-        sum += i
+        total += i
         cnt += 1

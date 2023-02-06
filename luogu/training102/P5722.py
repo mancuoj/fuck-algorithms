@@ -1,6 +1,6 @@
 n = int(input())
 
-sum = 0
+total = 0
 for i in range(n + 1):
-    sum += i
-print(sum)
+    total += i
+print(total)

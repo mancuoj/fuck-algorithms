@@ -5,8 +5,8 @@ while True:
     if m > n:
         m, n = n, m
 
-    sum = 0
+    total = 0
     for i in range(m, n + 1):
         print(i, end=" ")
-        sum += i
-    print(f"Sum={sum}")
+        total += i
+    print(f"total={total}")

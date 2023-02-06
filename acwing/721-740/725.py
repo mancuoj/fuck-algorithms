@@ -8,15 +8,15 @@ for _ in range(n):
         print(x, "is not perfect")
         continue
 
-    sum = 1
+    total = 1
     for i in range(2, int(sqrt(x)) + 1):
         if x % i == 0:
             div = x / i
             if div == i:
-                sum += i
+                total += i
             else:
-                sum += i + div
-    if sum == x:
+                total += i + div
+    if total == x:
         print(x, "is perfect")
     else:
         print(x, "is not perfect")

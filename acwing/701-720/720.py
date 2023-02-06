@@ -6,7 +6,7 @@ for i in range(1, len(list)):
         n = list[i]
         break
 
-sum = 0
+total = 0
 for i in range(a, a + n):
-    sum += i
-print(sum)
+    total += i
+print(total)
