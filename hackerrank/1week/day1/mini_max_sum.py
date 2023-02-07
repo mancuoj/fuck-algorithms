@@ -15,7 +15,7 @@ import sys
 
 def miniMaxSum(arr):
     # Write your code here
-    arr = sorted(arr)
+    arr.sort()
     s1 = sum(arr[:4])
     s2 = sum(arr[1:])
     print(f"{s1} {s2}")
