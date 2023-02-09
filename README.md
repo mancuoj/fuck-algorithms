@@ -1,6 +1,6 @@
 # 刷题记录
 
-刷就完了，哪有那么多b笔记要记，暂时先用 Python 吧
+刷就完了，哪有那么多b笔记要记，暂时先用 Python 吧，刷力扣放到[另一个仓库](https://github.com/mancuoj/leetcode)里。
 
 - https://www.acwing.com/problem/
 - https://www.luogu.com.cn/training/list
